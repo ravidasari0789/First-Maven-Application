@@ -9,11 +9,11 @@ public class PSWSecurity {
 	           public String pwsSecurity(String str) {
 	        	   
 	        	   Encoder en=Base64.getEncoder();
-	        	   
+	        	   int i=30;
 	        	 byte[] Byte=  en.encode(str.getBytes());
 	        	   
 	        	   String encoder=new String(Byte);
-	        	   
+	        
 	        	   return encoder;
 	        	   
 	           }
