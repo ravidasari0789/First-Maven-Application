@@ -13,7 +13,7 @@ public class PSWSecurity {
 	        	 byte[] Byte=  en.encode(str.getBytes());
 	        	   
 	        	   String encoder=new String(Byte);
-	        	   
+	        	   int sum=30;
 	        	   return encoder;
 	        	   
 	           }
